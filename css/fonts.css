@@ -1,0 +1,75 @@
+@font-face {
+    font-family: BebasRegular;
+    src: url(../fonts/BebasRegular.ttf);
+}
+
+@font-face {
+    font-family: BebasThin;
+    src: url(../fonts/BebasThin.ttf);
+}
+
+@font-face {
+    font-family: BebasBook;
+    src: url(../fonts/BebasBook.ttf);
+}
+
+.headText h1 {
+    font-family: "BebasRegular";
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.headText p {
+    font-family: "BebasBook";
+    font-size: 18px;
+}
+
+.about h1 {
+    font-family: "BebasRegular";
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.about p {
+    font-family: "BebasBook";
+    font-size: 18px;
+}
+
+.services h1 {
+    font-family: "BebasRegular";
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.services h2 {
+    font-family: "BebasBook";
+    font-size: 20px;
+}
+
+label {
+    font-family: "BebasThin";
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+
+li {
+    font-family: "BebasBook";
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.contacts h1 {
+    font-family: "BebasRegular";
+    letter-spacing: 3px;
+    font-size: 28px;
+}
+
+.contacts a {
+    font-family: "BebasRegular";
+    font-size: 24px;
+}
+
+.contList {
+    font-family: "BebasRegular";
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+header a svg {
+    height: 100%;
+    width: 70%;
+    top: 3px;
+    position: relative;
+    z-index: 100;
+    transform: rotateZ(90deg);
+    fill: #ffffff;
+    transition: .3s;
+}
+
+header a svg:hover {
+    fill: #999999;
+    top: 10px;
+}

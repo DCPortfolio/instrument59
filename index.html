@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<script>
+		window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    	});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" href="css/svg.css">
+	<link rel="stylesheet" href="css/icons.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="scripts/jquery-3.4.1.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="keywords" content="Металлорежущий инструмент, оснастка, свёрла сверла купить в Перми">
+	<meta name="description"
+		content="Предлагаем Вам разнообразный металлорежущий инструмент. Работаем с ведущими производителями продукции. Металлоизделия в наличии и под заказ в городе Перми">
+	<title>Металлорежущий инструмент, оснастка, свёрла сверла купить в Перми</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="headText" id="head">
+			<h1>ООО "Инструмент-Оптима"</h1>
+			<p>
+				Наша компания успешно работает на рынке инструмента с 2010 года. Мы предлагаем к поставке
+				металлорежущий, образивный, слесарный, измерительный инструмент, а также станочную оснастку как
+				российских, так и европейских производителей.
+			</p>
+		</div>
+		<a href="#content">
+			<svg width="306px" height="306px" viewBox="0 0 306 306">
+				<polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153" />
+			</svg>
+		</a>
+	</header>
+
+	<div class="content" id="content">
+		<div class="about">
+			<h1>Наша компания</h1>
+			<p>
+				Наша компания имеет большой опыт изготовления металлоизделий методом механической обработки любой
+				сложности. Работаем по индивидуальным чертежам заказчиков. У нас Вы можете заказать разнообразный
+				металлорежущий инструмент. Это сверла, фрезы, плашки, метчики, протяжки, развертки и др.
+			</p>
+			<p>
+				Наше предприятие поставляет целый ряд механических съемников, которые предназначены для демонтажа с вала
+				муфт, подшипников, различных втулок, для эффективного снятия шестерен. Оборудование легко монтируется и
+				может работать в любом пространственном положении.
+			</p>
+			<p>
+				Специалисты компании выполнят сборку изделий производственно-технического назначения и отдельных узлов
+				сложных механизмов в соответствии с техническим заданием. Предлагаем все виды металлообработки.
+				Производство нестандартного металлорежущего инструмента. Инструмент российского производства.
+			</p>
+		</div>
+		<div class="services" id="services">
+			<h1>Наши услуги</h1>
+			<h2>Мы поставляем высококачественные инструменты для металлообработки из наличия и под заказ</h2>
+			<div class="list">
+				<div class="box">
+					<input type="checkbox" id="metall">
+					<div class="iconSverlo"></div>
+					<label for="metall">Металлорежущий инструмент</label>
+					<ul>
+						<li>развертки ручные и машиные</li>
+						<li>резцы</li>
+						<li>фрезы</li>
+						<li>плашки</li>
+						<li>метчики</li>
+						<li>сверла</li>
+					</ul>
+				</div>
+				<div class="box">
+					<input type="checkbox" id="osnast">
+					<div class="iconTiski"></div>
+					<label for="osnast">Оснастка и приспособления</label>
+					<ul>
+						<li>втулки переходные</li>
+						<li>оправки</li>
+						<li>токарные патроны</li>
+						<li>делительные головки</li>
+						<li>тисы станочные</li>
+					</ul>
+				</div>
+				<div class="box">
+					<input type="checkbox" id="instrum">
+					<div class="iconSettings"></div>
+					<label for="instrum">Инструмент</label>
+					<ul>
+						<li>мерительный</li>
+						<li>слесарно-монтажный</li>
+						<li>абразивный</li>
+						<li>алмазный</li>
+					</ul>
+				</div>
+				<div class="box">
+					<input type="checkbox" id="crep">
+					<div class="iconShurup"></div>
+					<label for="crep">Крепежные изделия</label>
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="contacts" id="contacts">
+				<h1>Контакты</h1>
+				<div class="contList">
+					<div class="iconPhone"></div>
+					<h3 >Телефон</h3>
+					<span id="phone">Показать телефон</span>
+					<div class="iconEmail"></div>
+					<h3>Email</h3>
+					<span id="mail">Показать E-mail</span>
+					<div class="iconAddress"></div>
+					<h3>Адрес</h3>
+					<span id="address">Показать адрес</span>
+				</div>
+				<div class="links" id="dogovor">
+					<a href="files/dogovor.doc">
+						<div class="iconLink"></div>
+						Скачать пример договора
+					</a>
+					<a href="files/sklad.xls">
+						<div class="iconLink"></div>
+						Скачать список товаров и цен
+					</a>
+				</div>
+			</div>
+			<div class="map" id="map">
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A251f11cec9bdc8818ffd757e97c995e41c85aa4e36fc3cdb485072486526f67f&amp;source=constructor" width="600" height="450" frameborder="0"></iframe>
+			</div>
+		</footer>
+
+		<div class="menu">
+			<ul>
+				<a href="#head">
+					<li>ООО "Инструмент-Оптима"</li>
+				</a>
+				<a href="#content">
+					<li>Наша компания</li>
+				</a>
+				<a href="#services">
+					<li>Наши услуги</li>
+				</a>
+				<a href="#contacts">
+					<li>Контакты</li>
+				</a>
+				<a href="#dogovor">
+					<li>Договор | Список цен</li>
+				</a>
+				<a href="#map">
+					<li>Как добраться</li>
+				</a>
+			</ul>
+		</div>
+
+	</div>
+
+	<script src="scripts/main.js"></script>
+</body>
+
+</html>

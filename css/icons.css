@@ -1,0 +1,86 @@
+.box {
+    background: #292929;
+    color: #fff;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.box div {
+    margin: 6%;
+    transition: .3s;
+}
+
+.activeBox {
+    background: #EBEBEB;
+    color: #292929;
+}
+
+.iconSverlo {
+    background: url(../img/sverlo_white.png) no-repeat center center;
+	background-size: contain;
+}
+
+.iconTiski {
+    background: url(../img/tiski_white.png) no-repeat center center;
+	background-size: contain;
+}
+
+.iconSettings {
+    background: url(../img/settings_white.png) no-repeat center center;
+	background-size: contain;
+}
+
+.iconShurup {
+    background: url(../img/shurup_white.png) no-repeat center center;
+	background-size: contain;
+}
+
+input:checked ~ .iconSverlo {
+    background: url(../img/sverlo.png) no-repeat center center;
+    background-size: contain;
+}
+
+input:checked ~ .iconTiski  {
+    background: url(../img/tiski.png) no-repeat center center;
+    background-size: contain;
+}
+
+input:checked ~ .iconSettings {
+    background: url(../img/settings.png) no-repeat center center;
+    background-size: contain;
+}
+
+input:checked ~ .iconShurup {
+    background: url(../img/shurup.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contList .iconPhone {
+    background: url(../img/phone.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contList .iconEmail {
+    background: url(../img/email.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contList .iconAddress {
+    background: url(../img/map.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contList div {
+    height: 100%;
+    margin: 30% 20%;
+}
+
+.contacts .iconLink {
+    background: url(../img/link.png) no-repeat center center;
+    background-size: contain;
+}
+
+.contacts a:hover .iconLink {
+    background: url(../img/link_dark.png) no-repeat center center;
+    background-size: contain;
+}
